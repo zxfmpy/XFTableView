@@ -1,2 +1,2 @@
 # XFTableView
-cell创建方案
+由数据模型创建cell方案
