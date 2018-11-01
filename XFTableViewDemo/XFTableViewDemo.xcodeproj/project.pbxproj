@@ -13,6 +13,16 @@
 		BED8FF762189ABF200052CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED8FF752189ABF200052CF3 /* Assets.xcassets */; };
 		BED8FF792189ABF200052CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED8FF772189ABF200052CF3 /* LaunchScreen.storyboard */; };
 		BED8FF7C2189ABF200052CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF7B2189ABF200052CF3 /* main.m */; };
+		BED8FF9F2189B04900052CF3 /* DWAppStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF842189B04800052CF3 /* DWAppStoreViewController.m */; };
+		BED8FFA02189B04900052CF3 /* DWAppStoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF852189B04800052CF3 /* DWAppStoreViewModel.m */; };
+		BED8FFA12189B04900052CF3 /* DWAppBanerTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF8B2189B04800052CF3 /* DWAppBanerTableViewCellViewModel.m */; };
+		BED8FFA22189B04900052CF3 /* DWAppStoreOrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF8C2189B04800052CF3 /* DWAppStoreOrderViewModel.m */; };
+		BED8FFA32189B04900052CF3 /* DWAppStoreTableViewCellBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF8D2189B04800052CF3 /* DWAppStoreTableViewCellBaseViewModel.m */; };
+		BED8FFA42189B04900052CF3 /* DWAppImageTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF8E2189B04800052CF3 /* DWAppImageTableViewCellViewModel.m */; };
+		BED8FFA52189B04900052CF3 /* DTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF932189B04800052CF3 /* DTBaseView.m */; };
+		BED8FFA62189B04900052CF3 /* DWAppStoreBaseContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF982189B04800052CF3 /* DWAppStoreBaseContainerView.m */; };
+		BED8FFA72189B04900052CF3 /* DWBanerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF992189B04800052CF3 /* DWBanerView.m */; };
+		BED8FFA82189B04900052CF3 /* DWAppStoreBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FF9B2189B04800052CF3 /* DWAppStoreBaseTableViewCell.m */; };
 		FB37D94FEE8CC310D0694526 /* libPods-XFTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB051E52D32523DF2E375492 /* libPods-XFTableViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +39,29 @@
 		BED8FF782189ABF200052CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED8FF7A2189ABF200052CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BED8FF7B2189ABF200052CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BED8FF832189B04800052CF3 /* DTBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseView.h; sourceTree = "<group>"; };
+		BED8FF842189B04800052CF3 /* DWAppStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreViewController.m; sourceTree = "<group>"; };
+		BED8FF852189B04800052CF3 /* DWAppStoreViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreViewModel.m; sourceTree = "<group>"; };
+		BED8FF872189B04800052CF3 /* DWAppBanerTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppBanerTableViewCellViewModel.h; sourceTree = "<group>"; };
+		BED8FF882189B04800052CF3 /* DWAppStoreTableViewCellBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreTableViewCellBaseViewModel.h; sourceTree = "<group>"; };
+		BED8FF892189B04800052CF3 /* DWAppStoreOrderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreOrderViewModel.h; sourceTree = "<group>"; };
+		BED8FF8A2189B04800052CF3 /* DWAppImageTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppImageTableViewCellViewModel.h; sourceTree = "<group>"; };
+		BED8FF8B2189B04800052CF3 /* DWAppBanerTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppBanerTableViewCellViewModel.m; sourceTree = "<group>"; };
+		BED8FF8C2189B04800052CF3 /* DWAppStoreOrderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreOrderViewModel.m; sourceTree = "<group>"; };
+		BED8FF8D2189B04800052CF3 /* DWAppStoreTableViewCellBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreTableViewCellBaseViewModel.m; sourceTree = "<group>"; };
+		BED8FF8E2189B04800052CF3 /* DWAppImageTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppImageTableViewCellViewModel.m; sourceTree = "<group>"; };
+		BED8FF902189B04800052CF3 /* DWBaseContainerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBaseContainerViewProtocol.h; sourceTree = "<group>"; };
+		BED8FF912189B04800052CF3 /* DWAppStoreTableViewCellViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreTableViewCellViewModelProtocol.h; sourceTree = "<group>"; };
+		BED8FF922189B04800052CF3 /* DWAppStoreTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreTableViewCellProtocol.h; sourceTree = "<group>"; };
+		BED8FF932189B04800052CF3 /* DTBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseView.m; sourceTree = "<group>"; };
+		BED8FF962189B04800052CF3 /* DWAppStoreBaseContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreBaseContainerView.h; sourceTree = "<group>"; };
+		BED8FF972189B04800052CF3 /* DWBanerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBanerView.h; sourceTree = "<group>"; };
+		BED8FF982189B04800052CF3 /* DWAppStoreBaseContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreBaseContainerView.m; sourceTree = "<group>"; };
+		BED8FF992189B04800052CF3 /* DWBanerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBanerView.m; sourceTree = "<group>"; };
+		BED8FF9B2189B04800052CF3 /* DWAppStoreBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppStoreBaseTableViewCell.m; sourceTree = "<group>"; };
+		BED8FF9C2189B04800052CF3 /* DWAppStoreBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreBaseTableViewCell.h; sourceTree = "<group>"; };
+		BED8FF9D2189B04800052CF3 /* DWAppStoreViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreViewModel.h; sourceTree = "<group>"; };
+		BED8FF9E2189B04800052CF3 /* DWAppStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppStoreViewController.h; sourceTree = "<group>"; };
 		DE1350A99BD446CCD7463D65 /* Pods-XFTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XFTableViewDemo/Pods-XFTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +107,7 @@
 		BED8FF6B2189ABF100052CF3 /* XFTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BED8FF822189B04800052CF3 /* DWAppStoreViewController */,
 				BED8FF6C2189ABF100052CF3 /* AppDelegate.h */,
 				BED8FF6D2189ABF100052CF3 /* AppDelegate.m */,
 				BED8FF6F2189ABF100052CF3 /* ViewController.h */,
@@ -85,6 +119,76 @@
 				BED8FF7B2189ABF200052CF3 /* main.m */,
 			);
 			path = XFTableViewDemo;
+			sourceTree = "<group>";
+		};
+		BED8FF822189B04800052CF3 /* DWAppStoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BED8FF832189B04800052CF3 /* DTBaseView.h */,
+				BED8FF932189B04800052CF3 /* DTBaseView.m */,
+				BED8FF842189B04800052CF3 /* DWAppStoreViewController.m */,
+				BED8FF9E2189B04800052CF3 /* DWAppStoreViewController.h */,
+				BED8FF9D2189B04800052CF3 /* DWAppStoreViewModel.h */,
+				BED8FF852189B04800052CF3 /* DWAppStoreViewModel.m */,
+				BED8FF862189B04800052CF3 /* CellViewModel */,
+				BED8FF8F2189B04800052CF3 /* Protocol */,
+				BED8FF942189B04800052CF3 /* Model */,
+				BED8FF952189B04800052CF3 /* View */,
+				BED8FF9A2189B04800052CF3 /* TableViewCell */,
+			);
+			path = DWAppStoreViewController;
+			sourceTree = "<group>";
+		};
+		BED8FF862189B04800052CF3 /* CellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BED8FF872189B04800052CF3 /* DWAppBanerTableViewCellViewModel.h */,
+				BED8FF882189B04800052CF3 /* DWAppStoreTableViewCellBaseViewModel.h */,
+				BED8FF892189B04800052CF3 /* DWAppStoreOrderViewModel.h */,
+				BED8FF8A2189B04800052CF3 /* DWAppImageTableViewCellViewModel.h */,
+				BED8FF8B2189B04800052CF3 /* DWAppBanerTableViewCellViewModel.m */,
+				BED8FF8C2189B04800052CF3 /* DWAppStoreOrderViewModel.m */,
+				BED8FF8D2189B04800052CF3 /* DWAppStoreTableViewCellBaseViewModel.m */,
+				BED8FF8E2189B04800052CF3 /* DWAppImageTableViewCellViewModel.m */,
+			);
+			path = CellViewModel;
+			sourceTree = "<group>";
+		};
+		BED8FF8F2189B04800052CF3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BED8FF902189B04800052CF3 /* DWBaseContainerViewProtocol.h */,
+				BED8FF912189B04800052CF3 /* DWAppStoreTableViewCellViewModelProtocol.h */,
+				BED8FF922189B04800052CF3 /* DWAppStoreTableViewCellProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BED8FF942189B04800052CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BED8FF952189B04800052CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BED8FF962189B04800052CF3 /* DWAppStoreBaseContainerView.h */,
+				BED8FF982189B04800052CF3 /* DWAppStoreBaseContainerView.m */,
+				BED8FF972189B04800052CF3 /* DWBanerView.h */,
+				BED8FF992189B04800052CF3 /* DWBanerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BED8FF9A2189B04800052CF3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BED8FF9B2189B04800052CF3 /* DWAppStoreBaseTableViewCell.m */,
+				BED8FF9C2189B04800052CF3 /* DWAppStoreBaseTableViewCell.h */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		DE99C9928089D784D7135006 /* Frameworks */ = {
@@ -188,8 +292,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED8FF712189ABF100052CF3 /* ViewController.m in Sources */,
+				BED8FFA82189B04900052CF3 /* DWAppStoreBaseTableViewCell.m in Sources */,
+				BED8FFA52189B04900052CF3 /* DTBaseView.m in Sources */,
+				BED8FF9F2189B04900052CF3 /* DWAppStoreViewController.m in Sources */,
+				BED8FFA62189B04900052CF3 /* DWAppStoreBaseContainerView.m in Sources */,
+				BED8FFA12189B04900052CF3 /* DWAppBanerTableViewCellViewModel.m in Sources */,
 				BED8FF7C2189ABF200052CF3 /* main.m in Sources */,
+				BED8FFA42189B04900052CF3 /* DWAppImageTableViewCellViewModel.m in Sources */,
+				BED8FFA32189B04900052CF3 /* DWAppStoreTableViewCellBaseViewModel.m in Sources */,
+				BED8FFA22189B04900052CF3 /* DWAppStoreOrderViewModel.m in Sources */,
 				BED8FF6E2189ABF100052CF3 /* AppDelegate.m in Sources */,
+				BED8FFA72189B04900052CF3 /* DWBanerView.m in Sources */,
+				BED8FFA02189B04900052CF3 /* DWAppStoreViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "DWAppStoreViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:[DWAppStoreViewController new]];
     self.window.rootViewController = rootNav;
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];
